@@ -21,6 +21,7 @@ model User {
 model Customer {
   address   String?
   createdAt DateTime @default(now())
+  email     String?
   id        String   @id @default(cuid())
   nAme      String?
   orders    Order[]

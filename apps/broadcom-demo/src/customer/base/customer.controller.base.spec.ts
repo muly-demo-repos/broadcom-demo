@@ -20,6 +20,7 @@ const existingId = "existingId";
 const CREATE_INPUT = {
   address: "exampleAddress",
   createdAt: new Date(),
+  email: "exampleEmail",
   id: "exampleId",
   nAme: "exampleNAme",
   updatedAt: new Date(),
@@ -27,6 +28,7 @@ const CREATE_INPUT = {
 const CREATE_RESULT = {
   address: "exampleAddress",
   createdAt: new Date(),
+  email: "exampleEmail",
   id: "exampleId",
   nAme: "exampleNAme",
   updatedAt: new Date(),
@@ -35,6 +37,7 @@ const FIND_MANY_RESULT = [
   {
     address: "exampleAddress",
     createdAt: new Date(),
+    email: "exampleEmail",
     id: "exampleId",
     nAme: "exampleNAme",
     updatedAt: new Date(),
@@ -43,6 +46,7 @@ const FIND_MANY_RESULT = [
 const FIND_ONE_RESULT = {
   address: "exampleAddress",
   createdAt: new Date(),
+  email: "exampleEmail",
   id: "exampleId",
   nAme: "exampleNAme",
   updatedAt: new Date(),
